@@ -1,6 +1,8 @@
 # bash_scripts
 Random bash scripts
 
+######################################################################################################################
+
 submitSTR.sh: 
 
 Usage: ./submitSTR.sh <infile.pbs> <starting_K_value> <last_K_value> <optional: test_flag>
@@ -21,3 +23,13 @@ $2 and $3 arguments submit structure runs with K=$2 to K=$3
 .pbs script MUST HAVE '&' symbol in sed command in the .pbs script; it gets replaced with K values
 
 Each .pbs script is piped into qsub to submit each K value unless TEST_FLAG is defined
+
+########################################################################################################################
+
+avg_cov_pyRAD-s3.sh
+
+Script takes the s3.clusters.txt stats file output from pyRAD and calculates the average coverage with Depth>N
+
+Usage: ./avg_cov_pyRAD-s3.sh <s3.clusters_filename> <outfile>
+
+
