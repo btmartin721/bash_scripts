@@ -5,6 +5,10 @@ submitSTR.sh:
 
 Set command-line arguments
 Infile should be a .pbs script that runs structure on an HPC cluster
+
+example PBS script included as example.pbs
+
+
 GNU parallel should be used for multiple runs
 Must be at least three command-line arguments
 

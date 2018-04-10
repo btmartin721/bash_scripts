@@ -1,6 +1,6 @@
 #!/bin/bash
 #PBS -N str_k&
-#PBS -q q72h32c
+#PBS -q queue
 #PBS -j oe
 #PBS -m abe
 #PBS -M test@gmail.com
