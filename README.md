@@ -10,7 +10,7 @@ Usage:
 Infile should be a .pbs script that runs structure on an HPC cluster  
 example PBS script included in repository as example.pbs  
 
-**PBS script MUST HAVE '&' symbol in sed command; it gets replace with K values**
+**PBS script MUST HAVE '&' symbol in sed command; it gets replaced with K values**
 
 GNU parallel should be used for multiple runs  
 
