@@ -1,7 +1,7 @@
 # bash_scripts
 Random bash scripts
 
-################################################################################################################
+########################################################################################################
 
 submitSTR.sh: 
 
@@ -21,11 +21,12 @@ $2 and $3 arguments submit structure runs from K=$2 to K=$3
 
 Output is piped into qsub command unless TEST_FLAG is defined
 
-################################################################################################################
+#######################################################################################################
 
 get-avg-cov_pyradS3.sh:
 
+Usage: ./get-avg-cov_pyradS3.sh <s3.clusters_filename> <outfile>
+
 Script takes the s3.clusters.txt output from pyRAD and calculates the average coverage with Depth>N
 
-Usage: ./get-avg-cov_pyradS3.sh <s3.clusters_filename> <outfile>
 
