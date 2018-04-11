@@ -8,7 +8,7 @@ Usage:
 `./submitSTR.sh <infile.pbs> <starting_K_value> <last_K_value> <optional: TEST_FLAG>`
 
 Infile should be a .pbs script that runs structure on an HPC cluster  
-example PBS script included in repository as example.pbs  
+example PBS script is included in this Github repository as [example.pbs](https://github.com/btmartin721/bash_scripts/blob/master/example.pbs)  
 
 **PBS script MUST HAVE '&' symbol in sed command; it gets replaced with K values**
 
