@@ -25,7 +25,7 @@ Output is piped into qsub command unless TEST_FLAG is defined
 
 get-avg-cov_pyradS3.sh:
 
-Usage: ./get-avg-cov_pyradS3.sh <s3.clusters_filename> <outfile>
+Usage: ./get-avg-cov_pyradS3.sh s3.clusters_filename outfile
 
 Script takes the s3.clusters.txt output from pyRAD and calculates the average coverage with Depth>N
 
