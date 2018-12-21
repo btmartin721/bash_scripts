@@ -40,3 +40,11 @@ Usage:
 `./genPBS.sh <outfile_name_with_extension>`
 
 Generates blank PBS file for use on an HPC cluster
+
+### process_admixture.sh
+
+Usage: ./process_admixture.sh [arguments]  
+  Use help option to see specific details about required arguments:  
+    ./process_admixture.sh -h   
+    
+Requires two of Steve Mussmann's scripts to work.  Run help menu of script to see details.  
